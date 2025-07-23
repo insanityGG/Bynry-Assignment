@@ -12,4 +12,4 @@ Method Syntax- Endpoint won't handle POST requests properly
 Input Validation- Could lead to error
 Error Handling- Users won't know what went wrong
 SKU Uniqueness- Duplicate products could be created
-Quantity Validatio- Negative inventory may be created
+Quantity Validation- Negative inventory may be created
