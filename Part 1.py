@@ -10,7 +10,7 @@ def create_product():
     # Validate SKU uniqueness
     if Product.query.filter_by(sku=data['sku']).first():
         return {"error": "SKU must be unique"}, 400
-    # Validate initial quantity if provided
+    # Validate initial quantity if provided 
     initial_quantity = data.get('initial_quantity', 0)
     if initial_quantity < 0:
         return {"error": "Initial quantity cannot be negative"}, 400
